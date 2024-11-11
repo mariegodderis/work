@@ -16,8 +16,8 @@ function Frame1() {
             and natural wonder.
           </p>
           <img
-            src="https://images.unsplash.com/photo-1682686581498-5e85c7228119?auto=format&fit=crop&q=80"
-            alt="Mountain landscape"
+            src="/frame 1.png"
+            alt="frame1"
             className="w-full rounded-lg shadow-lg mb-8"
           />
         </div>
