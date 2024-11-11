@@ -6,11 +6,7 @@ function Home() {
     <div className="min-h-screen">
       {/* Hero Section */}
       <div className="relative h-screen">
-        <img
-          src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&q=80"
-          alt="Hero"
-          className="w-full h-full object-cover"
-        />
+      <img src="/header.png" alt="Header" className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-black bg-opacity-40" />
       </div>
 
@@ -20,7 +16,7 @@ function Home() {
           <Link to="/frame1" className="group">
             <div className="relative aspect-square overflow-hidden rounded-lg shadow-lg transition-transform duration-300 group-hover:scale-105">
               <img
-                src="https://images.unsplash.com/photo-1682686581498-5e85c7228119?auto=format&fit=crop&q=80"
+                src="/frame 1.png"
                 alt="Frame 1"
                 className="w-full h-full object-cover"
               />
@@ -33,7 +29,7 @@ function Home() {
           <Link to="/frame2" className="group">
             <div className="relative aspect-square overflow-hidden rounded-lg shadow-lg transition-transform duration-300 group-hover:scale-105">
               <img
-                src="https://images.unsplash.com/photo-1682686580024-580519d4b2d2?auto=format&fit=crop&q=80"
+                src="frame2.png"
                 alt="Frame 2"
                 className="w-full h-full object-cover"
               />
@@ -46,7 +42,7 @@ function Home() {
           <Link to="/frame3" className="group">
             <div className="relative aspect-square overflow-hidden rounded-lg shadow-lg transition-transform duration-300 group-hover:scale-105">
               <img
-                src="https://images.unsplash.com/photo-1682686580186-b55d2a91053c?auto=format&fit=crop&q=80"
+                src="/frame 3.png"
                 alt="Frame 3"
                 className="w-full h-full object-cover"
               />
